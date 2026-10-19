@@ -1,6 +1,6 @@
 const cl = console.log;
 
-const app = require('./app');
+const app = require('./student');
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
