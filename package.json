@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.3.0"
   },
   "name": "student1",
@@ -10,9 +11,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node assets/js/student.js",
-    "dev": "nodemon assets/js/student.js",
-    "dev:inspect": "nodemon --inspect=9229 assets/js/student.js"
+    "start": "node assets/js/server.js",
+    "dev": "nodemon assets/js/server.js",
+    "dev:inspect": "nodemon --inspect=9229 assets/js/server.js"
   },
   "keywords": [],
   "author": "",
