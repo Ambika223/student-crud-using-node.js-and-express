@@ -1,5 +1,7 @@
+const student = require('../data/studentArr');
+
 //GET ALL
-const getAllStudent = (req, res) => {
+const getStudent = (req, res) => {
     try {
         res.status(200).json({
             success: true,
@@ -140,7 +142,7 @@ const deleteStudent = (req, res) => {
 }
 
 module.exports = {
-    getAllStudent,
+    getStudent,
     getSingleStudent,
     createStudent,
     updateStudent,
